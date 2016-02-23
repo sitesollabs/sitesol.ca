@@ -1,0 +1,25 @@
+@font-face {
+        font-family: 'icomoon';
+        src:url('../fonts/icomoon.eot');
+        src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.woff') format('woff'),
+            url('../fonts/icomoon.ttf') format('truetype'),
+            url('../fonts/icomoon.svg#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+.logo {
+        &:before {
+            font-family: icomoon;
+            background: _palette(accent1, bg);
+            border-radius: _size(border-radius);
+            color: _palette(accent1, fg-bold);
+            content: '\e901';
+            display: inline-block;
+            font-size: 3em;
+            height: 1.65em;
+            line-height: 1.65em;
+            text-align: center;
+            width: 1.65em;
+        }
+    }
