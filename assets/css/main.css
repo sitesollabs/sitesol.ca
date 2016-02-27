@@ -2175,25 +2175,6 @@ header h6 + p {
 header p {
   color: #cdcdcd; }
 
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot");
-  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-.logo:before {
-  font-family: icomoon;
-  background: #72bee1;
-  border-radius: 4px;
-  color: #ffffff;
-  content: '\e901';
-  display: inline-block;
-  font-size: 3em;
-  height: 1.65em;
-  line-height: 1.65em;
-  text-align: center;
-  width: 1.65em; }
-
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
@@ -2795,6 +2776,25 @@ table.alt tbody tr td {
       .wrapper.spotlight > .content {
         padding: 3em 2em 1em 2em ; } }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.logo:before {
+  font-family: icomoon;
+  background: #72bee1;
+  border-radius: 4px;
+  color: #ffffff;
+  content: '\e901';
+  display: inline-block;
+  font-size: 3em;
+  height: 1.65em;
+  line-height: 1.65em;
+  text-align: center;
+  width: 1.65em; }
+
 /* Header */
 @-moz-keyframes reveal-header {
   0% {
@@ -3207,3 +3207,6 @@ body {
   @media screen and (max-width: 980px) {
     #navButton {
       display: block; } }
+
+body {
+  padding-top: 4em; }
